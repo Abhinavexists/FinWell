@@ -1,0 +1,16 @@
+fastapi==0.115.9
+uvicorn==0.34.3
+httpx==0.28.1
+pydantic==2.11.5
+typing_extensions==4.13.2
+
+openai==1.75.0
+google-api-python-client==2.170.0
+google-auth==2.40.2
+google-ai-generativelanguage==0.6.15
+
+numpy==2.2.6
+pandas==2.2.3
+
+rich==13.9.4
+python-dotenv==1.1.0

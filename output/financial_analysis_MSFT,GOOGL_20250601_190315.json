@@ -1,0 +1,530 @@
+{
+  "symbols": [
+    "MSFT,GOOGL"
+  ],
+  "analysis_period": "6mo",
+  "data_collection": {
+    "symbols": [
+      "MSFT,GOOGL"
+    ],
+    "period": "6mo",
+    "timestamp": "2025-06-01T19:02:50.408698",
+    "stock_data": {
+      "stocks": {
+        "MSFT,GOOGL": {
+          "error": "Failed to fetch data for MSFT,GOOGL: HTTP Error 404: "
+        }
+      },
+      "collection_timestamp": "2025-06-01T19:02:51.214844",
+      "status": "success"
+    },
+    "market_data": {
+      "market_indices": {
+        "S&P 500": {
+          "symbol": "^GSPC",
+          "current": 5911.68994140625,
+          "change": -0.47998046875,
+          "change_percent": -0.008118516130161865
+        },
+        "Dow Jones": {
+          "symbol": "^DJI",
+          "current": 42270.0703125,
+          "change": 54.33984375,
+          "change_percent": 0.128719420809797
+        },
+        "NASDAQ": {
+          "symbol": "^IXIC",
+          "current": 19113.76953125,
+          "change": -62.099609375,
+          "change_percent": -0.3238424757678336
+        },
+        "Russell 2000": {
+          "symbol": "^RUT",
+          "current": 2066.2900390625,
+          "change": -8.489990234375,
+          "change_percent": -0.40919953510696666
+        },
+        "VIX": {
+          "symbol": "^VIX",
+          "current": 18.56999969482422,
+          "change": -0.6100006103515625,
+          "change_percent": -3.180399377715088
+        }
+      },
+      "sector_performance": {
+        "Technology": {
+          "etf_symbol": "XLK",
+          "current_price": 230.91000366210938,
+          "price_change_percent": -0.31084108514671577
+        },
+        "Healthcare": {
+          "etf_symbol": "XLV",
+          "current_price": 132.63999938964844,
+          "price_change_percent": 0.21154334995898824
+        },
+        "Financial": {
+          "etf_symbol": "XLF",
+          "current_price": 50.959999084472656,
+          "price_change_percent": 0.2163237239968546
+        },
+        "Energy": {
+          "etf_symbol": "XLE",
+          "current_price": 81.52999877929688,
+          "price_change_percent": -0.8874341575200034
+        },
+        "Consumer Discretionary": {
+          "etf_symbol": "XLY",
+          "current_price": 213.8000030517578,
+          "price_change_percent": -0.544261135182351
+        },
+        "Consumer Staples": {
+          "etf_symbol": "XLP",
+          "current_price": 82.83000183105469,
+          "price_change_percent": 0.8768739682756193
+        },
+        "Industrial": {
+          "etf_symbol": "XLI",
+          "current_price": 142.82000732421875,
+          "price_change_percent": 0.06306424674145787
+        },
+        "Materials": {
+          "etf_symbol": "XLB",
+          "current_price": 86.33999633789062,
+          "price_change_percent": 0.011577095591282924
+        },
+        "Real Estate": {
+          "etf_symbol": "XLRE",
+          "current_price": 41.72999954223633,
+          "price_change_percent": 0.0959484692851894
+        },
+        "Utilities": {
+          "etf_symbol": "XLU",
+          "current_price": 81.91999816894531,
+          "price_change_percent": 1.0235563799956118
+        },
+        "Communication": {
+          "etf_symbol": "XLC",
+          "current_price": 101.4000015258789,
+          "price_change_percent": 0.4159221182244832
+        }
+      },
+      "status": "success"
+    },
+    "news_sentiment": {
+      "individual_news": {
+        "MSFT,GOOGL": [
+          {
+            "title": "Nvidia: The Jensen Magic May Be Fading (Rating Downgrade)",
+            "summary": "Nvidia faces growth challenges as hyperscaler CapEx peaks, data center risks rise, and geopolitical factors impact.",
+            "url": "https://finnhub.io/api/news?id=45bea173e4a67514256c32fe0e3cf65ab6c9faeffa57208f473751fe7ad7c5ec",
+            "published": "2025-06-01T14:30:00",
+            "source": "SeekingAlpha",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/493247947/image_493247947.jpg?io=getty-c-w1536",
+            "sentiment": {
+              "polarity": -0.1,
+              "subjectivity": 0.1,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "How To Build A High-Yielding Dividend Portfolio In June 2025",
+            "summary": "As June 2025 begins, markets remain pricey and risks are mounting, making investing tough. Learn how I\u00e2\u0080\u0099m allocating capital and building a dividend portfolio now.",
+            "url": "https://finnhub.io/api/news?id=a8e4bff6c95fb6e6b6a88cb22c6bcf513c44451846fed47daec7cbe6bb0f6eec",
+            "published": "2025-06-01T14:30:00",
+            "source": "SeekingAlpha",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/669931172/image_669931172.jpg?io=getty-c-w1536",
+            "sentiment": {
+              "polarity": -0.3888888888888889,
+              "subjectivity": 0.8333333333333334,
+              "label": "negative"
+            }
+          },
+          {
+            "title": "How The BLSH Portfolio Buys Low And Sells High, Consistently",
+            "summary": "The BLSH strategy systematically buys blue-chip stocks at undervalued prices and sells partial positions at overvalued levels. Learn more about the strategy here.",
+            "url": "https://finnhub.io/api/news?id=da9f4c876d8f46ad218f622289f0a249ade8eac2f56f6ee313e2293c6632ad29",
+            "published": "2025-06-01T14:00:00",
+            "source": "SeekingAlpha",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/536134845/image_536134845.jpg?io=getty-c-w1536",
+            "sentiment": {
+              "polarity": 0.2,
+              "subjectivity": 0.4,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Down 16%, Should You Buy the Dip on Alphabet?",
+            "summary": "The current dip provides investors with a chance to buy shares at a discount to the market.  With the proliferation of generative artificial intelligence (AI) tools in recent years, investors have rightfully been concerned that Alphabet's crown jewel, Google Search, that represented 56% of sales in the first quarter, would be disrupted.  First off, Google Search still commands a whopping 90% of global market share when it comes to search engines.",
+            "url": "https://finnhub.io/api/news?id=2ea9a6c49558d2b85619a249eb67b2cd420b697b0775900c0a4104681b3067ea",
+            "published": "2025-06-01T04:00:00",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": -0.016666666666666663,
+              "subjectivity": 0.38611111111111107,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Move Over FAANG, Enter the TACO Trade: This Monster ETF Could Be Poised to Take Off",
+            "summary": "Wall Street is abuzz with the TACO trade right now.",
+            "url": "https://finnhub.io/api/news?id=fe6cebd93b227780829057e709f4823e8d8e42f53f59291cc94a2798720124de",
+            "published": "2025-06-01T03:50:00",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.2857142857142857,
+              "subjectivity": 0.5357142857142857,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "3 Stocks to Buy to Ride the Nuclear Power Renaissance",
+            "summary": "NuScale Power is making nuclear power \"small\" -- and that's a big opportunity.  Constellation Energy is the nation's leader in producing nuclear power.  Cameco foresees huge demand for uranium to power nuclear plants.",
+            "url": "https://finnhub.io/api/news?id=cfc4db7b75c465951028a208595159fe84587857ef8a8213d0a3467342161bb8",
+            "published": "2025-06-01T03:44:00",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.04999999999999999,
+              "subjectivity": 0.4666666666666666,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Reddit\u2019s (RDDT) Rollercoaster Ride Enters Buy-the-Dip Territory",
+            "summary": "Reddit Inc. (RDDT) stock has been on a wild ride since its IPO last March, soaring from $34 to a dizzying $230 before pulling back at $103 today. The bullish moment has been fueled by Reddit\u2019s jaw-dropping growth, tempered by whispers of doubt about whether it can keep the momentum going. I\u2019m betting it can. With its unique platform and skyrocketing metrics in both the top and bottom lines, I see Reddit\u2019s dip as a rare chance to buy into a social media giant poised for a big rebound. Surging Use",
+            "url": "https://finnhub.io/api/news?id=8ca6ee57e895169a954f72872cb47917af9c9dec7261918dad50eaf3e85692a5",
+            "published": "2025-05-31T23:08:00",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.14537037037037037,
+              "subjectivity": 0.44814814814814813,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Google says it will appeal online search antitrust decision",
+            "summary": "U.S. District Judge Amit Mehta in Washington heard closing arguments on Friday at a trial on proposals to address Google's illegal monopoly in online search and related advertising.  In April, a federal judge said that Google illegally dominated two markets for online advertising technology, with the U.S. Department of Justice saying that Google should sell off at least its Google Ad Manager, which includes the company's publisher ad server and its ad exchange.",
+            "url": "https://finnhub.io/api/news?id=9d9644184253a4e82b9d52067afca7fdaf2fa8753d53c8f11c9594e12ea60afd",
+            "published": "2025-05-31T21:12:42",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": -0.325,
+              "subjectivity": 0.44999999999999996,
+              "label": "negative"
+            }
+          },
+          {
+            "title": "Google quietly released an app that lets you download and run AI models locally",
+            "summary": "Last week, Google quietly released an app that lets users run a range of openly available AI models from the AI dev platform Hugging Face on their phones. Called Google AI Edge Gallery, the app is available for Android and will soon come to iOS. It allows users to find, download, and run compatible models that generate images, answer questions, write and edit code, and more. The models run offline, without needing an internet connection, tapping into supported phones' processors. AI models runni",
+            "url": "https://finnhub.io/api/news?id=22d37667ff66614320b527653f5f74158c609b9611aec4a8d580cf6615dfb24c",
+            "published": "2025-05-31T19:34:46",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.26,
+              "subjectivity": 0.34,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Where the Stock Market Stands Now After a Wild Start to the Year",
+            "summary": "(Bloomberg) -- The stock market\u2019s crazy first five months of 2025 have left Wall Street pros in a bit of a pickle. Most Read from BloombergBillionaire Steve Cohen Wants NY to Expand Taxpayer-Backed FerryNow With Colorful Blocks, Tirana\u2019s Pyramid Represents a Changing AlbaniaNYC Congestion Toll Brings In $216 Million in First Four MonthsThe Economic Benefits of Paying Workers to MoveWhere the Wild Children\u2019s Museums AreComing off the best month for the S&P 500 Index in a year and a half and the b",
+            "url": "https://finnhub.io/api/news?id=627480b3dc41e957bc55d7f2abf0d70d50f0344b5d440b54d36dc453a4484076",
+            "published": "2025-05-31T17:30:07",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.18484848484848487,
+              "subjectivity": 0.3303030303030303,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Salesforce: You May Not Get It This Cheap Again (Rating Upgrade)",
+            "summary": "Salesforce lags despite solid profits, but AI traction, M&A moves, and low valuation offer upside. See why CRM stock is upgraded to buy.",
+            "url": "https://finnhub.io/api/news?id=5c73f4a7b4af0c3adbb1a35bf9465babbdd166fae125a598872159db750f80f1",
+            "published": "2025-05-31T17:00:00",
+            "source": "SeekingAlpha",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1223906528/image_1223906528.jpg?io=getty-c-w1536",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.2,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Google On Us DOJ Search Remedies Trial Says Still Strongly Believe Court'S Original Decision Was Wrong, Look Forward To Our Eventual Appeal - X Post",
+            "summary": "May 31 - * GOOGLE ON US DOJ SEARCH REMEDIES TRIAL SAYS STILL STRONGLYBELIEVE COURT\u2019S ORIGINAL DECISION WAS WRONG, LOOK FORWARD TO OUREVENTUAL APPEAL - X POSTSource text:...",
+            "url": "https://finnhub.io/api/news?id=b38a12ab9ac36e12ca95b55ba7603818a8d3aa359b61a44166a727f445ab3add",
+            "published": "2025-05-31T16:25:06",
+            "source": "Finnhub",
+            "image": "",
+            "sentiment": {
+              "polarity": -0.0625,
+              "subjectivity": 0.825,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Germany Considers 10% Digital Tax On Tech Giants Alphabet, Meta: Report",
+            "summary": "In a move that could escalate trade tensions with the U.S., Germany is reportedly contemplating imposing a 10% tax on major online platforms, including Alphabet Inc. (NASDAQ:GOOGL) (NASDAQ:GOOG) and Meta Platforms Inc. (NASDAQ:META). What Happened: Wolfram Weimer, the new German Minister of State for Culture, disclosed this proposal in an interview with Stern magazine. This revelation comes before Chancellor Friedrich Merz\u2018s anticipated visit to Washington, although no official confirmation has",
+            "url": "https://finnhub.io/api/news?id=90fc4e3f37f8688d5fe0f256be6c869dc977317f75099279d75edfdd504e9212",
+            "published": "2025-05-31T16:15:12",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.06628787878787878,
+              "subjectivity": 0.3181818181818182,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Alphabet Stock Is A Value Trap",
+            "summary": "Most investors are bullish on Alphabet/Google at these levels, but seem to overlook a very important risk. Check out the risk here and why GOOG stock is a Sell.",
+            "url": "https://finnhub.io/api/news?id=8be5134d317433bcc3523dfe4fab90cbf77c181f3d7e1f5e212a2abefdcc3c23",
+            "published": "2025-05-31T14:30:00",
+            "source": "SeekingAlpha",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/169975453/image_169975453.jpg?io=getty-c-w1536",
+            "sentiment": {
+              "polarity": 0.51,
+              "subjectivity": 0.75,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Potentially Earn 12%-15% Income: Monthly Options Series (June 2025)",
+            "summary": "Writing options does involve some learning curve and practice. Check out stocks suitable for writing options to generate consistent income for June.",
+            "url": "https://finnhub.io/api/news?id=1e4df0496932fa1b73a504f99abf4c36a89c9f1abaeb0b2d97462707b4596d43",
+            "published": "2025-05-31T14:00:00",
+            "source": "SeekingAlpha",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/803420378/image_803420378.jpg?io=getty-c-w1536",
+            "sentiment": {
+              "polarity": 0.4,
+              "subjectivity": 0.5,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "4 Reasons to Buy Alphabet Stock Like There's No Tomorrow",
+            "summary": "Investors' worries that AI could disrupt search have sent Alphabet shares to a very attractive valuation.  Meanwhile, Google Cloud and Waymo have the potential to be huge businesses.  One stock that divides many investors at this time is Alphabet (NASDAQ: GOOGL) (NASDAQ: GOOG).",
+            "url": "https://finnhub.io/api/news?id=eb749479c2e2ed5f13976ab08e1e18aed3078af9ddd55c92960e6d8d8303e133",
+            "published": "2025-05-31T14:00:00",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.475,
+              "subjectivity": 0.85,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "The Smartest Growth Stock to Buy With $5,000 Right Now",
+            "summary": "Each of these businesses is in either a prosperity or recovery mode.  A rising revenue growth rate coupled with a low valuation should bode well for investors.  Indeed, the idea of a smart stock can depend heavily on one's point of view.",
+            "url": "https://finnhub.io/api/news?id=d2f254f225caaf348b8b887c0d3d859d7a8a0668932c8d90a680b727b10ce817",
+            "published": "2025-05-31T13:42:00",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.0047619047619047545,
+              "subjectivity": 0.48095238095238096,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Trump\u2019s trade war is bruising Apple \u2014 and your 401(k)",
+            "summary": "President Donald Trump\u2019s swipes at Apple aren\u2019t just bruising the company\u2019s bottom line \u2014 they may also be taking a bite out of your 401(k).",
+            "url": "https://finnhub.io/api/news?id=d5d2117a126dfc081258b714482c6358035e84c9272d7c2ab5416d9e7d89f321",
+            "published": "2025-05-31T13:30:04",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "The Amazon Paradox: Growth Potential, But Stalling Stock Price",
+            "summary": "Amazon stock consolidates as growth faces challenges from retail tariffs and economic uncertainty. Read here for AMZN's long-term opportunities in AWS & AI.",
+            "url": "https://finnhub.io/api/news?id=0ae871e0a51b4b7950d5b26e4dae15210c133272de120233bf0d63a65bc6c5b8",
+            "published": "2025-05-31T10:28:14",
+            "source": "SeekingAlpha",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2195607659/image_2195607659.jpg?io=getty-c-w1536",
+            "sentiment": {
+              "polarity": 0.2,
+              "subjectivity": 0.2,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "It\u2019s Waymo\u2019s World. We\u2019re All Just Riding in It.",
+            "summary": "Google\u2019s driverless-taxi company just cracked 10 million rides. If you haven\u2019t taken one, you will soon.",
+            "url": "https://finnhub.io/api/news?id=e57df77c2f4e904ce80f07b896b226006d4daed9d401b92fb3d5a80435de4980",
+            "published": "2025-05-31T05:33:00",
+            "source": "Yahoo",
+            "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          }
+        ]
+      },
+      "market_sentiment": {
+        "overall_sentiment": {
+          "polarity": 0.09444636844636844,
+          "subjectivity": 0.4207205387205387,
+          "label": "neutral",
+          "total_articles": 20
+        },
+        "symbol_sentiments": {
+          "MSFT,GOOGL": {
+            "average_polarity": 0.09444636844636844,
+            "average_subjectivity": 0.4207205387205387,
+            "article_count": 20,
+            "sentiment_label": "neutral"
+          }
+        }
+      },
+      "status": "success"
+    },
+    "summary": {
+      "total_symbols": 1,
+      "data_quality": "good",
+      "issues": []
+    }
+  },
+  "analysis": {
+    "symbols": [
+      "MSFT,GOOGL"
+    ],
+    "analysis_timestamp": "2025-06-01T19:02:50.408698",
+    "technical_analysis": {
+      "technical_analysis": {
+        "MSFT,GOOGL": {
+          "error": "Failed to fetch data for MSFT,GOOGL: HTTP Error 404: "
+        }
+      },
+      "status": "success"
+    },
+    "fundamental_analysis": {
+      "fundamental_analysis": {
+        "MSFT,GOOGL": {
+          "error": "Failed to fetch data for MSFT,GOOGL: HTTP Error 404: "
+        }
+      },
+      "status": "success"
+    },
+    "market_analysis": {
+      "error": "'str' object has no attribute 'get'",
+      "status": "failed"
+    },
+    "sentiment_analysis": {
+      "individual_sentiment_impact": {
+        "MSFT,GOOGL": {
+          "sentiment_score": 0.09444636844636844,
+          "impact_level": "neutral",
+          "article_count": 20,
+          "recommendation": "Neutral sentiment impact"
+        }
+      },
+      "overall_market_sentiment": {
+        "polarity": 0.09444636844636844,
+        "subjectivity": 0.4207205387205387,
+        "label": "neutral",
+        "total_articles": 20
+      },
+      "status": "success"
+    },
+    "analysis_summary": {
+      "total_symbols_analyzed": 1,
+      "analysis_quality": "partial",
+      "key_findings": [],
+      "overall_market_outlook": "neutral",
+      "issues": [
+        "Market analysis incomplete"
+      ]
+    }
+  },
+  "risk_assessment": {
+    "symbols": [
+      "MSFT,GOOGL"
+    ],
+    "assessment_timestamp": "2025-06-01T19:02:50.408698",
+    "risk_metrics": {
+      "risk_metrics": {
+        "MSFT,GOOGL": {
+          "error": "No technical data available"
+        }
+      },
+      "status": "success"
+    },
+    "portfolio_risk": {
+      "error": "No valid risk data for portfolio assessment"
+    },
+    "recommendations": {
+      "individual_recommendations": {
+        "MSFT,GOOGL": {
+          "recommendation": "INSUFFICIENT_DATA",
+          "reason": "Incomplete analysis data"
+        }
+      },
+      "portfolio_allocation": {
+        "stock_allocations": {},
+        "cash_allocation": 100,
+        "total_invested": 0
+      },
+      "overall_strategy": {
+        "strategy": "BALANCED",
+        "buy_signals": 0,
+        "sell_signals": 0,
+        "hold_signals": 0,
+        "market_outlook": "NEUTRAL"
+      },
+      "status": "success"
+    },
+    "risk_management": {
+      "position_limits": {
+        "max_single_position": "25%",
+        "max_sector_exposure": "40%",
+        "cash_reserve": "10-20%"
+      },
+      "stop_loss_strategy": "Implement trailing stops for all positions",
+      "rebalancing_frequency": "Monthly review, quarterly rebalancing",
+      "risk_monitoring": [
+        "Daily P&L monitoring",
+        "Weekly portfolio risk assessment",
+        "Monthly correlation analysis"
+      ]
+    }
+  },
+  "executive_summary": {
+    "analysis_overview": {
+      "symbols_analyzed": 1,
+      "analysis_period": "6mo",
+      "data_quality": "good",
+      "analysis_quality": "partial"
+    },
+    "key_findings": [],
+    "top_recommendations": {
+      "buy": [],
+      "sell": []
+    },
+    "risk_highlights": [],
+    "portfolio_summary": {
+      "recommended_stock_allocation": "0.0%",
+      "recommended_cash_allocation": "100.0%",
+      "number_of_positions": 0
+    },
+    "investment_strategy": "BALANCED",
+    "market_outlook": "NEUTRAL"
+  },
+  "method": "direct_orchestration",
+  "status": "success",
+  "timestamp": "2025-06-01T19:03:15.780864"
+}
