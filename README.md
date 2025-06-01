@@ -2,6 +2,18 @@
 
 A sophisticated multi-agent financial analysis platform that provides comprehensive stock market analysis, risk assessment, and investment recommendations using advanced AI agents and technical indicators.
 
+## Problem Statement
+
+Financial markets are complex and require analysis across multiple dimensions - technical patterns, fundamental valuation, market sentiment, and risk assessment. Individual investors and financial professionals face several key challenges:
+
+- **Information Overload**: Markets generate vast amounts of data from prices, news, financial reports, and economic indicators
+- **Multi-Dimensional Analysis**: Effective investment decisions require combining technical analysis, fundamental analysis, sentiment analysis, and risk assessment
+- **Time Constraints**: Manual analysis of multiple stocks across different timeframes is time-intensive
+- **Emotional Bias**: Human decision-making can be influenced by emotions and cognitive biases
+- **Risk Management**: Proper portfolio risk assessment requires complex mathematical calculations and historical analysis
+
+FinWell addresses these challenges by deploying specialized AI agents that work collaboratively to provide comprehensive, unbiased, and data-driven financial analysis and investment recommendations.
+
 ## Tech Stack
 
 ### Core Technologies
@@ -19,7 +31,6 @@ A sophisticated multi-agent financial analysis platform that provides comprehens
 - **textblob** - Natural language processing for sentiment analysis
 - **feedparser** - RSS news feed parsing
 - **requests** - HTTP API interactions
-
 
 ### APIs & Data Sources
 
@@ -54,6 +65,47 @@ FinWell/
 ├── pyproject.toml                 # UV project configuration
 ├── uv.lock                        # UV lockfile                # 
 ```
+
+## Agent Interactions & Workflow
+
+FinWell uses a multi-agent architecture where specialized AI agents collaborate to provide comprehensive financial analysis:
+
+### Agent Collaboration Flow
+
+```bash
+DataAgent → AnalysisAgent → RiskAgent → Final Report
+```
+
+### 1. **DataAgent** (Data Collection & Processing)
+
+- **Primary Role**: Collects and preprocesses financial data
+- **Data Sources**: Stock prices, financial statements, market indices, news feeds
+- **Output**: Clean, structured financial datasets
+- **Handoff**: Provides standardized data to AnalysisAgent
+
+### 2. **AnalysisAgent** (Technical & Fundamental Analysis)
+
+- **Input**: Receives processed data from DataAgent
+- **Technical Analysis**: Calculates RSI, MACD, Bollinger Bands, moving averages, support/resistance
+- **Fundamental Analysis**: Computes financial ratios, valuation metrics, growth rates
+- **Sentiment Analysis**: Processes news sentiment and market indicators
+- **Output**: Technical signals, fundamental scores, and market sentiment
+- **Handoff**: Provides analysis results to RiskAgent
+
+### 3. **RiskAgent** (Risk Assessment & Recommendations)
+
+- **Input**: Receives analysis results from AnalysisAgent
+- **Risk Calculations**: VaR, Sharpe ratio, beta, volatility, maximum drawdown
+- **Portfolio Analysis**: Position sizing, allocation recommendations, correlation analysis
+- **Final Scoring**: Combines technical, fundamental, and risk metrics into actionable recommendations
+- **Output**: Investment recommendations (STRONG_BUY/BUY/HOLD/SELL/STRONG_SELL) with confidence scores
+
+### Agent Communication Protocol
+
+- **Shared Memory**: Agents communicate through structured data objects
+- **Error Handling**: Each agent validates inputs and provides fallback mechanisms
+- **Logging**: All agent interactions are logged for debugging and audit trails
+- **Orchestration**: CrewAI coordinates agent execution and manages workflows
 
 ## Features
 
